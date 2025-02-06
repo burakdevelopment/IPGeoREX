@@ -15,7 +15,7 @@ def get_ip_location(ip_address):
         print("The IP location could not be found.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='wooserr')
+    parser = argparse.ArgumentParser(description='burakdevelopment')
     parser.add_argument('ip_address', type=str, help='IP adresi')
     args = parser.parse_args()
 
